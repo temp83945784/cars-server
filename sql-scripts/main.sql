@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS cars.cars (
+   id INT AUTO_INCREMENT PRIMARY KEY,
+   brand VARCHAR(200),
+   model VARCHAR(200),
+   horse_power VARCHAR(200)
+);
